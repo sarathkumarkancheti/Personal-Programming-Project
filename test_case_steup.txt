@@ -1,0 +1,13 @@
+Test cases 1 to 6 can be done for any problem and any element.
+
+## main_program
+TestCase = 'Yes';         
+patchTest = 'No';
+deformControl = 'No';
+problem = 2;             % Provide problem number (1 to 5)
+nt =2;                   % Number of time steps should be 2
+max_iterations =19;      % Set max_iterations to 1
+
+## element_routine
+%% Test case: 6
+length(boundary_local_nodes) == 4  % 4 for 3D case, 3 for problem 2 and 2 for all other problems.
